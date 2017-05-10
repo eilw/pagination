@@ -1,0 +1,38 @@
+table {
+  margin: auto;
+  table-layout: fixed;
+  width: 80%;
+}
+
+body {
+  font-family: Arial, Helvetica, Roboto, sans-serif;
+}
+
+th,
+td {
+  border-bottom: 1px solid rgba(9, 56, 59, 0.3);
+  padding: 10px;
+  text-align: left;
+}
+
+.tbl-header {
+  background-color: #178e96;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+
+.col-description {
+  width: 40%;
+}
+
+.active {
+  background-color: #178e96;
+  color: #fff;
+}
+
+.pagination {
+  padding: 10px;
+  text-align: center;
+}

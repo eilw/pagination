@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Github pagination</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="src/main.js"></script>
+    <script src="src/pageService.js"></script>
+    <script src="src/tablePresenter.js"></script>
+    <script src="src/htmlFormatter.js"></script>
+    <script src="src/githubService.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/table.css">
+  </head>
+  <body>
+    <div class="pagination">
+      <button id="previous"> <<< </button>
+      <button id="next"> >>> </button>
+    </div>
+    <table>
+      <thead class="tbl-header">
+        <tr class="row">
+          <th>Repo</th>
+          <th>Owner</th>
+          <th class="col-description">Description</th>
+          <th>Stats</th>
+        </tr>
+      </thead>
+      <tbody id="repos-data">
+      </tbody>
+    </table>
+  </body>
+</html>
